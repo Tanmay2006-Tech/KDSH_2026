@@ -129,8 +129,15 @@ pathway
 pandas
 
 Execution
+
+Run the system using the following command:
 python main.py --test-csv test.csv --output results.csv
-If --test-csv is not provided, the system automatically searches for the input file.
+
+Notes:
+
+If --test-csv is not provided, the system automatically searches for the input file across common dataset directories.
+The output file is generated as results.csv in the current directory.
+
 
 🧪 Key Properties
 
